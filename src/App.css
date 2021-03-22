@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+body{
+  background: #02012B;
+}
+/* the squares in the background */
+.design{
+  position:fixed;
+  bottom: 0;
+  right: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home */
+.big-hd-text{
+  position: absolute;
+  width: 678px;
+  height: 185px;
+  left: 209px;
+  top: 209px;
+
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 91px;
+
+  color: #FEFFD1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Courier+Prime&family=Newsreader:wght@350&display=swap');
+
+.small-hd-text{
+  position: absolute;
+  width: 552px;
+  height: 62px;
+  left: 214px;
+  top: 411px;
+
+  font-family: 'Newsreader', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 29px;
+
+color: #FEFFD1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#song{
+  font-family:  'Capriola', sans-serif;
+}
+#code{
+  font-family: 'Courier Prime', monospace;
+}
+#abt-btn{
+  position: absolute;
+  width: 174px;
+  height: 54px;
+  left: 214px;
+  top: 539px;
+
+  background: #0E0C58;
+  border: 1px solid #0E0C58;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+.hm-btn{
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #FEFFD1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#rs-btn{
+  position: absolute;
+  width: 174px;
+  height: 54px;
+  left: 414px;
+  top: 539px;
+
+  background: #0E0C58;
+  border: 1px solid #0E0C58;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Cards */
+@import '~antd/dist/antd.css';
+.nav-bar{
+  float: right;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #FEFFD1;
+}
+.site-card-wrapper {
+  padding: 50px;
+}
+.ant-breadcrumb-separator{
+  color: #fff;
 }
