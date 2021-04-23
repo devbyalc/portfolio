@@ -1,6 +1,9 @@
 body{
   background: #02012B;
 }
+h1{
+  color: #ffff;
+}
 /* the squares in the background */
 .design{
   position:fixed;
@@ -106,4 +109,12 @@ color: #FEFFD1;
 }
 .ant-breadcrumb-separator{
   color: #fff;
+}
+
+/*About*/
+
+.about-page{
+  background:#02012B;
+  padding: 5%;
+  
 }

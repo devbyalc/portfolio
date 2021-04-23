@@ -6,7 +6,7 @@ class ProjectCard extends React.Component {
     constructor() {
         super();
         //to show projects image
-        this.API_URL = "http://localhost:1337"
+        this.API_URL = "https://damp-atoll-82498.herokuapp.com/"
     }
     render() {
 
