@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-[Strapi heroku](https://damp-atoll-82498.herokuapp.com/)  
+Headless CMS Back end with Strapi! [Strapi heroku](https://damp-atoll-82498.herokuapp.com/)  
 
 ## Available Scripts
 
