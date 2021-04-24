@@ -9,7 +9,6 @@ function NavBar() {
         <PageHeader
             style={{ backgroundColor:'#02012B',color:'#FEFFD1'}}
             ghost={false}
-            title="Title"
             extra={[
                 <Link to='/home'><Button  style={{ backgroundColor:'#02012B',color:'#FEFFD1'}} key={3}>Home</Button></Link>,
                 <Link to='/about'><Button  style={{ backgroundColor:'#02012B',color:'#FEFFD1'}}key={2}>About</Button></Link>,

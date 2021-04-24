@@ -25,8 +25,8 @@ class App extends React.Component {
   //Fetch projects immediately after the component is mounted.
   componentDidMount = async () => {
     try {
-     const response = await axios.get(`$process.env.REACT_APP_API_URL`)
-    //const response = await axios.get('https://damp-atoll-82498.herokuapp.com/')
+     const response = await axios.get(`${process.env.REACT_APP_API_URL}/projects`)
+     //const response = await axios.get('https://damp-atoll-82498.herokuapp.com/')
       this.setState({ projects: response.data });
     } catch (error) {
       this.setState({ error });

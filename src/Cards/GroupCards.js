@@ -7,8 +7,9 @@ class GroupCards extends React.Component {
   render() {
 
     return (
-      <div className="site-card-wrapper">
+      <div className="site-card-wrapper" id="group-cards">
         <Row gutter={16}>
+          
           {this.props.projects.map(project => (
             <Col span={8}>
               <ProjectCard key={project.id} pro={project} />

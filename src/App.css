@@ -111,10 +111,87 @@ color: #FEFFD1;
   color: #fff;
 }
 
-/*About*/
+/*porjects page*/
+#group-cards{
+  background:#02012B;
+}
 
+/*About*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 .about-page{
   background:#02012B;
   padding: 5%;
   
+}
+#about{
+  font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+
+color: #FEFFD1;
+}
+
+#profile{
+  font-family: Raleway;
+font-style: light;
+font-weight: light;
+font-size: 20px;
+line-height: 23px;
+
+color: #FEFFD1;
+
+}
+
+.abt-head{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  
+  color: #FEFFD1;
+}
+#exp,#edu,#award,#vne{
+font-family: Raleway;
+font-style: light;
+font-weight: light;
+font-size: 15px;
+line-height: 17x;
+
+color: #FEFFD1;
+
+}
+
+/*project details page*/
+#pro-deets{
+  background:#02012B;
+  color:#FEFFD1;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top:10%;
+}
+
+#pro-title{
+  text-align: center;
+  font-weight: bold;
+  font-family: Raleway;
+  font-size: 36px;
+  color:#FEFFD1;
+}
+#pro-desc{
+  text-align: center;
+  font-size:20px;
+}
+
+
+
+.ant-layout{
+  background:#02012B;
+
+}
+#btn{
+  text-align: center;
 }

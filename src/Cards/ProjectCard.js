@@ -9,15 +9,8 @@ class ProjectCard extends React.Component {
     }
     render() {
 
-        // testing - { console.log(this.props.pro.media) }
-
-
-        // Deconstructing Json 
-        // let { media } = this.props.pro;
-        // let imageFormat = media[0].formats.small
-
         return (
-            < Card title={this.props.pro.title} bordered={false} >
+            < Card title={this.props.pro.title} bordered={false} style={{ marginTop: 16 }} >
                 <a href={this.props.pro.site} target="_blank">Repo/Live site</a>
                 <p>{this.props.pro.shortdesc}</p>
                 <Link to={`/projects/${this.props.pro.id}`}>

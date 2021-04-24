@@ -1,5 +1,7 @@
 import React from 'react';
 import axios from 'axios';
+import {  Button } from 'antd';
+import { GithubOutlined } from '@ant-design/icons';
 
 class ProjectDetails extends React.Component {
 
@@ -15,8 +17,8 @@ class ProjectDetails extends React.Component {
 
     componentDidMount = async () => {
         try {
-            const response = await axios.get(`${process.env.REACT_APP_API_RL}/projects/${this.state.projectID}`)
-            //const response = await axios.get('https://damp-atoll-82498.herokuapp.com/projects/${this.state.projectID}')
+            //const response = await axios.get(`${process.env.REACT_APP_API_RL}/projects/${this.state.projectID}`)
+            const response = await axios.get(`https://damp-atoll-82498.herokuapp.com/projects/${this.state.projectID}`)
             this.setState({ project: response.data });
         } catch (error) {
             this.setState({ error });
@@ -25,9 +27,20 @@ class ProjectDetails extends React.Component {
     };
 
     render() {
-
         return (
-            <h1>{this.state.project.title}</h1>
+            <div id="pro-deets">
+                    <h1 id="pro-title">{this.state.project.title}</h1>
+                    <p id="pro-desc"> {this.state.project.longdesc}</p>
+                    <div id="btn">
+                    <a href={this.state.project.site} target="_blank"><GithubOutlined style={{fontSize:'30px'}}/></a>
+                    </div>
+                    {/* {  this.state.project.tools.map(tool => (
+                            <Button type="dashed" ghost>{tool.name}</Button>
+                        ))
+                     } */}
+         
+           </div>
+
         );
     }
 
