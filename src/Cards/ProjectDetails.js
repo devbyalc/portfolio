@@ -15,7 +15,8 @@ class ProjectDetails extends React.Component {
 
     componentDidMount = async () => {
         try {
-            const response = await axios.get(`https://damp-atoll-82498.herokuapp.com/projects/${this.state.projectID}`)
+            const response = await axios.get(`${process.env.REACT_APP_API_RL}/projects/${this.state.projectID}`)
+            //const response = await axios.get('https://damp-atoll-82498.herokuapp.com/projects/${this.state.projectID}')
             this.setState({ project: response.data });
         } catch (error) {
             this.setState({ error });

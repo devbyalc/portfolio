@@ -5,8 +5,7 @@ import { Card, Button } from 'antd';
 class ProjectCard extends React.Component {
     constructor() {
         super();
-        //to show projects image
-        this.API_URL = "https://damp-atoll-82498.herokuapp.com/"
+        
     }
     render() {
 
