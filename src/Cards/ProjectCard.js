@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card, Button } from 'antd';
 
 class ProjectCard extends React.Component {
-    constructor() {
-        super();
-        
-    }
+    
     render() {
 
         return (

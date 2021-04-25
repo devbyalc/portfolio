@@ -3,7 +3,7 @@ import { Button } from 'antd';
 import {Link} from 'react-router-dom';
 import Backdesign from '../Design/Backdesign';
 import {Layout} from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
+const { Content } = Layout;
 
 
 function Home(){

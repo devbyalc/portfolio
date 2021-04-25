@@ -32,7 +32,7 @@ class ProjectDetails extends React.Component {
                     <h1 id="pro-title">{this.state.project.title}</h1>
                     <p id="pro-desc"> {this.state.project.longdesc}</p>
                     <div id="btn">
-                    <a href={this.state.project.site} target="_blank"><GithubOutlined style={{fontSize:'30px'}}/></a>
+                    <a href={this.state.project.site} target="_blank" rel="noreferrer"><GithubOutlined style={{fontSize:'30px'}}/></a>
                     </div>
                     
                     <div id="btn-tools">
