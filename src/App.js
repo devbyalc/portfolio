@@ -11,7 +11,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import {Layout} from 'antd';
-const {Header} = Layout;
+const {Header,Content} = Layout;
 
 class App extends React.Component {
 
@@ -48,6 +48,7 @@ class App extends React.Component {
           <Header>
           <NavBar />
           </Header>
+          <Content>
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/home" component={Home} />
@@ -57,6 +58,7 @@ class App extends React.Component {
             </Route>
             <Route path="/projects/:id" component={ProjectDetails} />
           </Switch>
+          </Content>
           </Layout>
         </div>
       </Router>

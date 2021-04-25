@@ -5,16 +5,18 @@ h1{
   color: #ffff;
 }
 /* the squares in the background */
-.design{
-  position:fixed;
-  bottom: 0;
-  right: 0;
+#design{
+ 
+  max-width: 100%;
+  margin-top: 30%;
+  margin-left:75%;
 }
 
 /* Home */
 #home{
   padding-left:10%;
   padding-top:30%;
+  padding-bottom:15%;
   
 }
 .big-hd-text{
@@ -62,7 +64,7 @@ color: #FEFFD1;
   font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   /* identical to box height */
 
@@ -78,7 +80,6 @@ color: #FEFFD1;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(4px);
-  font-size: 20px;
 }
 
 /* Cards */
@@ -189,8 +190,8 @@ color: #FEFFD1;
   text-align: center;
   margin-top:5%;
 }
-
-/* #btn-tools{
+ 
+#btn-tools{
+  margin:0 auto;
   text-align: center;
-} */
-
+}

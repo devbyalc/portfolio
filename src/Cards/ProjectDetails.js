@@ -36,15 +36,13 @@ class ProjectDetails extends React.Component {
                     <a href={this.state.project.site} target="_blank" rel="noreferrer"><GithubOutlined style={{fontSize:'30px'}}/></a>
                     </div>
                     
-                   
                     <Divider><p id="pro-tools">Built using</p></Divider>
                    
                         <div id="btn-tools">
-                        <Space>
+                        <Space wrap>
                     {this.state.project.tools !== undefined ? this.state.project.tools.map(tool => (
-                            <Button type="primary" ghost style={{verticalAlign: 'middle'}} >{tool.name}</Button>)):null}
+                            <Button type="default" ghost style={{verticalAlign: 'middle'}} >{tool.name}</Button>)):null}
                         </Space>
-                        
                         </div>
                     </Col>
            </Row>
