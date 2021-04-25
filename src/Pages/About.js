@@ -7,7 +7,7 @@ function About() {
 
             <Divider orientation="left"><h1 id="about">About Me</h1></Divider>
             <Row>
-                <Col xs={2} sm={4} md={6} lg={8} xl={10}>
+                <Col md={8}>
                     <p id="profile">
                         As a recent graduate, I am eager to build a long-term career in the
                         field of software engineering. I have advanced knowledge of
@@ -48,8 +48,8 @@ function About() {
 
                     </p>
                 </Col>
-                <Col xs={25} sm={20} md={16} lg={5} xl={3}></Col>
-                <Col xs={2} sm={4} md={6} lg={8} xl={10}> <h2 className="abt-head">EDUCATION</h2>
+                <Col  md={8} ></Col>
+                <Col  md={8} > <h2 className="abt-head">EDUCATION</h2>
                     <p id="edu">
                         <b>La Trobe University — Bachelor of Information Technology</b>
                         <br />

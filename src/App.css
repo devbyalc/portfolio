@@ -12,35 +12,31 @@ h1{
 }
 
 /* Home */
+#home{
+  padding-left:35%;
+  padding-top:30%;
+  
+}
 .big-hd-text{
-  position: absolute;
-  width: 678px;
-  height: 185px;
-  left: 209px;
-  top: 209px;
-
+  /* position: absolute; */
   font-family: Merriweather;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
-  line-height: 91px;
+  width: 100%;
+  font-size:4vw;
+ 
 
   color: #FEFFD1;
 }
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Courier+Prime&family=Newsreader:wght@350&display=swap');
 
 .small-hd-text{
-  position: absolute;
-  width: 552px;
-  height: 62px;
-  left: 214px;
-  top: 411px;
 
   font-family: 'Newsreader', sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 20px;
-  line-height: 29px;
+  font-size:1vw;
+ 
 
 color: #FEFFD1;
 }
@@ -52,11 +48,6 @@ color: #FEFFD1;
   font-family: 'Courier Prime', monospace;
 }
 #abt-btn{
-  position: absolute;
-  width: 174px;
-  height: 54px;
-  left: 214px;
-  top: 539px;
 
   background: #0E0C58;
   border: 1px solid #0E0C58;
@@ -71,7 +62,7 @@ color: #FEFFD1;
   font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 24px;
   /* identical to box height */
 
@@ -80,17 +71,14 @@ color: #FEFFD1;
 }
 
 #rs-btn{
-  position: absolute;
-  width: 174px;
-  height: 54px;
-  left: 414px;
-  top: 539px;
+  /* position: absolute; */
 
   background: #0E0C58;
   border: 1px solid #0E0C58;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(4px);
+  font-size: 1vw;
 }
 
 /* Cards */
