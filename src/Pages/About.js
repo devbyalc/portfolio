@@ -48,7 +48,7 @@ function About() {
 
                     </p>
                 </Col>
-                <Col  md={8} ></Col>
+                <Col  md={2} ></Col>
                 <Col  md={8} > <h2 className="abt-head">EDUCATION</h2>
                     <p id="edu">
                         <b>La Trobe University — Bachelor of Information Technology</b>

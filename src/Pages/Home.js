@@ -11,7 +11,7 @@ function Home() {
         <Row >
             <Backdesign />
 
-            <Col sm={3} md={9}>
+            <Col md={10}>
                 <div id="home">
                 <h1 className="big-hd-text">Hi!<br />I'm Alicia.</h1>
                 <p className="small-hd-text">I’m a junior software engineer based in Melbourne, VIC.<br />

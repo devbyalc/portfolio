@@ -11,7 +11,7 @@ class GroupCards extends React.Component {
         <Row gutter={16}>
           
           {this.props.projects.map(project => (
-            <Col sm={3} md={8}>
+            <Col  md={6}>
               <ProjectCard key={project.id} pro={project} />
             </Col>
           ))}
