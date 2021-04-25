@@ -16,7 +16,7 @@ function Home(){
             <Link to='/about'>
             <Button  className="hm-btn" id="abt-btn" type="primary">About me</Button>
             </Link>
-            <Button  className="hm-btn" id="rs-btn" type="primary"><a href="https://drive.google.com/file/d/19Nvptu2XrTjSfvq_2zq3ORMC6Tiz2N79/view?usp=sharing" target="_blank" rel="noreferer"
+            <Button  className="hm-btn" id="rs-btn" type="primary"><a href="https://drive.google.com/file/d/19Nvptu2XrTjSfvq_2zq3ORMC6Tiz2N79/view?usp=sharing" target="_blank" rel="noreferrer"
 >Resume</a></Button>
         </Content>
         );

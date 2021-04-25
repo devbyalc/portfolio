@@ -11,7 +11,7 @@ class ProjectCard extends React.Component {
 
         return (
             < Card title={this.props.pro.title} bordered={false} style={{ marginTop: 16 }} >
-                <a href={this.props.pro.site} target="_blank" rel="noreferer">Repo/Live site</a>
+                <a href={this.props.pro.site} target="_blank" rel="noreferrer">Repo/Live site</a>
                 <p>{this.props.pro.shortdesc}</p>
                 <Link to={`/projects/${this.props.pro.id}`}>
                     <Button type="primary">Learn More</Button>
