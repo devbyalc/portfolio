@@ -186,7 +186,12 @@ color: #FEFFD1;
   font-size:20px;
 }
 
+#pro-tools{
+  color:#7ec1ff;
+  margin: auto;
 
+  font-weight: lighter;
+}
 
 .ant-layout{
   background:#02012B;
@@ -194,4 +199,11 @@ color: #FEFFD1;
 }
 #btn{
   text-align: center;
+  margin-top:5%;
 }
+
+#btn-tools{
+  margin-top: 5%;
+  text-align: center;
+}
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import {  Button } from 'antd';
+import {  Space, Button, Divider } from 'antd';
 import { GithubOutlined } from '@ant-design/icons';
 
 class ProjectDetails extends React.Component {
@@ -34,10 +34,14 @@ class ProjectDetails extends React.Component {
                     <div id="btn">
                     <a href={this.state.project.site} target="_blank"><GithubOutlined style={{fontSize:'30px'}}/></a>
                     </div>
-                    {/* {  this.state.project.tools.map(tool => (
-                            <Button type="dashed" ghost>{tool.name}</Button>
-                        ))
-                     } */}
+                    
+                    <div id="btn-tools">
+                    <Divider><p id="pro-tools">Built using</p></Divider>
+                        <Space>
+                    {this.state.project.tools !== undefined ? this.state.project.tools.map(tool => (
+                            <Button type="primary" ghost >{tool.name}</Button>)):null}
+                        </Space>
+                        </div>
          
            </div>
 
