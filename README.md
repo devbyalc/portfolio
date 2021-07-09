@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[Visit the livesite!](https://aliciahadisaputra.netlify.app/) 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 Headless CMS Back end with Strapi! [Strapi heroku](https://damp-atoll-82498.herokuapp.com/)  
