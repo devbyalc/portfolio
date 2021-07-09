@@ -100,7 +100,7 @@ color: #FEFFD1;
   color: #fff;
 }
 
-/*porjects page*/
+/*projects page*/
 #group-cards{
   background:#02012B;
 }
@@ -194,4 +194,8 @@ color: #FEFFD1;
 #btn-tools{
   margin:0 auto;
   text-align: center;
+}
+
+#card{
+  height: 350px;
 }

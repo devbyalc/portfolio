@@ -7,7 +7,7 @@ class ProjectCard extends React.Component {
     render() {
 
         return (
-            < Card  title={this.props.pro.title} bordered={false} style={{ marginTop: 16 }} >
+            < Card  id="card" title={this.props.pro.title} bordered={false} style={{ marginTop: 16 }} >
                 <a href={this.props.pro.site} target="_blank" rel="noreferrer">Repo/Live site</a>
                 <p>{this.props.pro.shortdesc}</p>
                 <Link to={`/projects/${this.props.pro.id}`}>
