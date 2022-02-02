@@ -26,7 +26,6 @@ class App extends React.Component {
   componentDidMount = async () => {
     try {
      const response = await axios.get(`${process.env.REACT_APP_API_URL}/projects`)
-     //const response = await axios.get('https://damp-atoll-82498.herokuapp.com/')
       this.setState({ projects: response.data });
     } catch (error) {
       this.setState({ error });
