@@ -143,14 +143,24 @@ color: #FEFFD1;
   color: #FEFFD1;
 }
 #exp,#edu,#award,#vne{
-font-family: Raleway;
-font-style: light;
-font-weight: light;
-font-size: 15px;
-line-height: 17x;
+  font-family: Raleway;
+  font-style: light;
+  font-weight: light;
+  font-size: 15px;
+  line-height: 17x;
 
 color: #FEFFD1;
 
+}
+
+.learn-btn{
+  display: flex;
+  justify-content: end;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
 }
 
 /*project details page*/
@@ -175,6 +185,8 @@ color: #FEFFD1;
   font-size:20px;
 }
 
+
+
 #pro-tools{
   color:#7ec1ff;
   margin: auto;
@@ -186,9 +198,10 @@ color: #FEFFD1;
   background:#02012B;
 
 }
-#btn{
+.btn{
   text-align: center;
   margin-top:5%;
+  margin:5px;
 }
  
 #btn-tools{
