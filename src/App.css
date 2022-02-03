@@ -10,7 +10,28 @@ h1{
   max-width: 100%;
   margin-top: 30%;
   margin-left:75%;
+  
 }
+
+@media only screen and (max-width: 600px) {
+  #design {
+    max-width: 50%;
+    margin-top: 0;
+    margin-left:75%;
+  }
+  #home{
+    padding-left:10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    
+  }
+  .big-hd-text{
+    /* position: absolute; */
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
 
 /* Home */
 #home{
@@ -43,6 +64,11 @@ h1{
 color: #FEFFD1;
 }
 
+.img{
+  display: flex;
+  justify-content: end;
+}
+
 #song{
   font-family:  'Capriola', sans-serif;
 }
@@ -56,8 +82,6 @@ color: #FEFFD1;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(4px);
-
-  
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 .hm-btn{

@@ -3,7 +3,7 @@ import design from './design.png';
 
 function Backdesign(){
     return (
-        <div>
+        <div className='img'>
             <img id="design" src={design} alt="backgroundImage"/>
         </div>
     );

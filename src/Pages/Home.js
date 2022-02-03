@@ -10,7 +10,6 @@ function Home() {
     return (
         
         <Row>
-             
              <Col md={8}>
                     <div id="home">
                         <h1 className="big-hd-text">Hi!<br />I'm Alicia.</h1>
@@ -25,8 +24,7 @@ function Home() {
                         </Space>
                     </div>
                 </Col>
-                <Backdesign/>
-                
+                <Col><Backdesign/></Col>
             </Row>
             
                     
